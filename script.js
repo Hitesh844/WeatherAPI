@@ -25,6 +25,7 @@ fetch('https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=' + city, op
         max_temp.innerHTML = Response.max_temp
         wind_speed.innerHTML = Response.wind_speed
         wind_speed2.innerHTML = Response.wind_speed
+        wind_speed3.innerHTML = Response.wind_speed
         wind_degrees.innerHTML = Response.wind_degrees
         sunrise.innerHTML = Response.sunrise
         sunset.innerHTML = Response.sunset
